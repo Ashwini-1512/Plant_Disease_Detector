@@ -27,7 +27,7 @@ Python 3 · TensorFlow / Keras (EfficientNetB0) · Flask · pandas · NumPy · K
 
 1. Open a new Google Colab notebook and select a GPU runtime (Runtime → Change runtime type → GPU). Training on CPU is possible but very slow.
 2. Paste the contents of `plantdiseasedetector.py` into a single cell and run it.
-3. When prompted, upload `plantvillage_cleaned_balanced.csv`.
+3. When prompted, upload `plantvillage_cleaned_balanced.csv`and after that upload 'kaggle.json'.
 4. The pipeline downloads the matching real PlantVillage photos from Kaggle automatically, trains EfficientNetB0 in two stages, evaluates on a held-out test set, and generates Grad-CAM visualisations.
 5. The pipeline then writes and launches the Flask website automatically.
 
