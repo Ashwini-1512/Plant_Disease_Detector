@@ -18,6 +18,7 @@ This project classifies a photo of a plant leaf into one of 38 crop/disease cate
 |---|---|
 | `plantdiseasedetector.py` | Full end-to-end pipeline: dependency install, manifest cleaning, real-photo download and materialisation, augmentation, two-stage EfficientNetB0 training, evaluation, Grad-CAM, model export, and the Flask deployment. Written to run in Google Colab. |
 | `plantvillage_cleaned_balanced.csv` | Cleaned, balanced manifest of image classes used to drive training and downloading. |
+| 'kaggle.json' | Create a Kaggle container to store the sample images from kaggle. |
 
 ## Tech stack
 
